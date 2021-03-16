@@ -2,7 +2,7 @@
 
 git init
 git add requirements.txt
-mkdir test-env && cd test-env
+mkdir env && cd env
 python3 -m venv env
 cd -
 source env/bin/activate
